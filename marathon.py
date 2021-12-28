@@ -33,5 +33,3 @@ def hash_solution(participant, completion):
 
 part = ["marina", "josipa", "nikola", "vinko", "filipa"]
 com = ["josipa", "filipa", "marina", "nikola"]
-
-hash_solution(part, com)
