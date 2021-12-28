@@ -21,13 +21,13 @@ def solution(participant, completion):
 def hash_solution(participant, completion):
     answer = ''
     temp = 0
-    dic = {}
+    dict = {}
     for part in participant:
-        dic[hash(part)] = part
+        dict[hash(part)] = part
         temp += int(hash(part))
     for com in completion:
         temp -= hash(com)
-    answer = dic[temp]
+    answer = dict[temp]
 
     return answer
 
