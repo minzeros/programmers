@@ -45,3 +45,4 @@ def solution(progresses, speeds):
 # >>> [2, 1]
 # print(solution([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1]))
 # >>> [1, 3, 2]
+
