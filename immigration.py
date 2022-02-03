@@ -20,4 +20,3 @@ def solution(n, times):
     return answer
 
 print(solution(6, [7, 10]))
-print(solution(7, [7, 10, 5]))
