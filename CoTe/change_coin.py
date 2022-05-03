@@ -15,6 +15,3 @@ def solution(n, money):
             # (i-coin원을 만드는 경우의 수가 곧 i원을 만드는 경우의 수) * coin마다 반복
 
     return dp[n]
-
-
-print(solution(5, [1,2,5]))
