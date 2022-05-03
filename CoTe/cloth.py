@@ -22,6 +22,7 @@ def solution(clothes):
     return answer-1
 
 
+
 ## 다른 풀이1
 def solution(clothes):
     clothes_type = {}
@@ -37,6 +38,7 @@ def solution(clothes):
         cnt *= num
 
     return cnt - 1
+
 
 
 ## 다른 풀이2

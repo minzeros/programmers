@@ -47,3 +47,4 @@ def solution(priorities, location):
                 answer += 1
                 if i == location:
                     return answer
+                    

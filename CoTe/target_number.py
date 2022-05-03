@@ -22,6 +22,7 @@ def solution(numbers, target):
     return answer
 
 
+
 ## 다른 풀이1
 def solution(numbers, target):
     q = [0]
